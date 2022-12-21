@@ -50,21 +50,21 @@ class _BitEmojiState extends State<BitEmoji> {
                     child: Container(
                       height: 200,
                       width: 200,
-                      child: Image.asset('bitmoji/bald.png'),
+                      child: Image.asset('bitmoji/bald.png',package: 'avatarmaker',),
                     ),
                   ),
                   Positioned(
                       left:hairIndex==1? 110:100,
                       top: 20,
-                      child: Image.asset(ListHair[hairIndex],width: (hairIndex ==4) ? 180 : (hairIndex ==5)?150 : 130,)),
+                      child: Image.asset(ListHair[hairIndex],width: (hairIndex ==4) ? 180 : (hairIndex ==5)?150 : 130,package: 'avatarmaker',)),
                   Positioned(
                       left: 135,
                       top:110,
-                      child: Image.asset(Listeyes[eyesIndex],width: 80,)),
+                      child: Image.asset(Listeyes[eyesIndex],width: 80,package: 'avatarmaker',)),
                   Positioned(
                       left: 170,
                       top: 130,
-                      child: Image.asset('bitmoji/nose.png',height: 30,)),
+                      child: Image.asset('bitmoji/nose.png',height: 30,package: 'avatarmaker',)),
 
                   Positioned(
                       left: 140,
@@ -85,9 +85,9 @@ class _BitEmojiState extends State<BitEmoji> {
                       automaticallyImplyLeading:false,
                       bottom: TabBar(
                         tabs: [
-                          Tab(child: Image.asset('bitmoji/eyes.png',width: 50,),),
-                          Tab(child: Image.asset('bitmoji/mouth_one.png',width: 50,height: 30,),),
-                          Tab(child: Image.asset('bitmoji/hairs.png',width: 50,),),
+                          Tab(child: Image.asset('bitmoji/eyes.png',width: 50,package: 'avatarmaker',),),
+                          Tab(child: Image.asset('bitmoji/mouth_one.png',width: 50,height: 30,package: 'avatarmaker',),),
+                          Tab(child: Image.asset('bitmoji/hairs.png',width: 50,package: 'avatarmaker',),),
                         ],
                       ),
                     ),
@@ -104,7 +104,7 @@ class _BitEmojiState extends State<BitEmoji> {
                                       });
                                     },
 
-                                    child: Image.asset(Listeyes[indexc],width: 10,height: 30,));
+                                    child: Image.asset(Listeyes[indexc],width: 10,height: 30,package: 'avatarmaker',));
                               }),
                         ),
                         Container(
@@ -118,7 +118,7 @@ class _BitEmojiState extends State<BitEmoji> {
                                       });
                                     },
 
-                                    child: Image.asset(Listnose[indexc],width: 10,height: 30,));
+                                    child: Image.asset(Listnose[indexc],width: 10,height: 30,package: 'avatarmaker',));
                               }),
                         ),
                         Container(
@@ -132,7 +132,7 @@ class _BitEmojiState extends State<BitEmoji> {
                                       });
                                     },
 
-                                    child: Image.asset(ListHair[indexc],width: 10,height: 30,));
+                                    child: Image.asset(ListHair[indexc],width: 10,height: 30,package: 'avatarmaker',));
                               }),
                         ),
                       ],
