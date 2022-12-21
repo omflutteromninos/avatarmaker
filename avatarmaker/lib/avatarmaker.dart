@@ -11,25 +11,25 @@ class BitEmoji extends StatefulWidget {
 
 class _BitEmojiState extends State<BitEmoji> {
   var Listnose = [
-    'bitmoji/mouth_one.png',
-    'bitmoji/mouth_three.png',
-    'bitmoji/mouth_two.png',
+    '.pub-cache/git/avatarmaker-a5a9e93c55532e6de558e5680dc272a37a4090a0/avatarmaker/bitmoji/mouth_one.png',
+    '.pub-cache/git/avatarmaker-a5a9e93c55532e6de558e5680dc272a37a4090a0/avatarmaker/bitmoji/mouth_three.png',
+    '.pub-cache/git/avatarmaker-a5a9e93c55532e6de558e5680dc272a37a4090a0/avatarmaker/bitmojimouth_two.png',
   ];
   var Listeyes = [
-    'bitmoji/eyes.png',
-    'bitmoji/eyes_one.png',
-    'bitmoji/eyes_two.png',
+    '.pub-cache/git/avatarmaker-a5a9e93c55532e6de558e5680dc272a37a4090a0/avatarmaker/bitmojieyes.png',
+    '.pub-cache/git/avatarmaker-a5a9e93c55532e6de558e5680dc272a37a4090a0/avatarmaker/bitmoji/eyes_one.png',
+    '.pub-cache/git/avatarmaker-a5a9e93c55532e6de558e5680dc272a37a4090a0/avatarmaker/bitmoji/eyes_two.png',
 
 
 
   ];
   var ListHair = [
-    'bitmoji/hairs.png',
-    'bitmoji/hair_two.png',
-    'bitmoji/hair_three.png',
-    'bitmoji/hair_one.png',
-    'bitmoji/hair_four.png',
-    'bitmoji/hair_five.png',
+    '.pub-cache/git/avatarmaker-a5a9e93c55532e6de558e5680dc272a37a4090a0/avatarmaker/bitmoji/hairs.png',
+    '.pub-cache/git/avatarmaker-a5a9e93c55532e6de558e5680dc272a37a4090a0/avatarmaker/bitmoji/hair_two.png',
+    '.pub-cache/git/avatarmaker-a5a9e93c55532e6de558e5680dc272a37a4090a0/avatarmaker/bitmoji/hair_three.png',
+    '.pub-cache/git/avatarmaker-a5a9e93c55532e6de558e5680dc272a37a4090a0/avatarmaker/bitmoji/hair_one.png',
+    '.pub-cache/git/avatarmaker-a5a9e93c55532e6de558e5680dc272a37a4090a0/avatarmaker/bitmoji/hair_four.png',
+    '.pub-cache/git/avatarmaker-a5a9e93c55532e6de558e5680dc272a37a4090a0/avatarmaker/bitmoji/hair_five.png',
   ];
   var index = 0;
   var eyesIndex = 0;
@@ -50,7 +50,7 @@ class _BitEmojiState extends State<BitEmoji> {
                     child: Container(
                       height: 200,
                       width: 200,
-                      child: Image.asset('bitmoji/bald.png'),
+                      child: Image.asset('.pub-cache/git/avatarmaker-a5a9e93c55532e6de558e5680dc272a37a4090a0/avatarmaker/bitmoji/bald.png'),
                     ),
                   ),
                   Positioned(
@@ -64,7 +64,7 @@ class _BitEmojiState extends State<BitEmoji> {
                   Positioned(
                       left: 170,
                       top: 130,
-                      child: Image.asset('bitmoji/nose.png',height: 30,)),
+                      child: Image.asset('.pub-cache/git/avatarmaker-a5a9e93c55532e6de558e5680dc272a37a4090a0/avatarmaker/bitmoji/nose.png',height: 30,)),
 
                   Positioned(
                       left: 140,
